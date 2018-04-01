@@ -39,13 +39,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initWidgets() {
-        srlSwipe = (SwipeRefreshLayout) findViewById(R.id.srlSwipe);
-        etTaskName = (EditText) findViewById(R.id.etTaskName);
-        etTaskDescription = (EditText) findViewById(R.id.etTaskDescription);
-        bAdd = (Button) findViewById(R.id.bAdd);
-        bUpdate = (Button) findViewById(R.id.bUpdate);
-        bDelete = (Button) findViewById(R.id.bDelete);
-        lvResults = (ListView) findViewById(R.id.lvResults);
+        srlSwipe = findViewById(R.id.srlSwipe);
+        etTaskName = findViewById(R.id.etTaskName);
+        etTaskDescription = findViewById(R.id.etTaskDescription);
+        bAdd = findViewById(R.id.bAdd);
+        bUpdate = findViewById(R.id.bUpdate);
+        bDelete = findViewById(R.id.bDelete);
+        lvResults = findViewById(R.id.lvResults);
     }
 
     private void setupListeners() {
